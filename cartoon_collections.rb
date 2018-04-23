@@ -13,8 +13,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.detect {|string| string == cheese_types[0]
-
+  array.detect {|string| string == cheese_types[0] || string == cheese_types[1] || string == cheese_types[2]}
 end
 
 
